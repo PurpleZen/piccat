@@ -5,6 +5,7 @@
 <style>
 html, body {
   color: #eee;
+  background-color: #202020;
   background: url("chrome://global/skin/media/imagedoc-darknoise.png") fixed;
   display: grid;
   justify-items: center;
