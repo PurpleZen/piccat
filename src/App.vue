@@ -6,7 +6,7 @@
 html, body {
   color: #eee;
   background-color: #202020;
-  background: url("chrome://global/skin/media/imagedoc-darknoise.png") fixed;
+  background-image: url("chrome://global/skin/media/imagedoc-darknoise.png");
   display: grid;
   justify-items: center;
   align-content: space-evenly;
