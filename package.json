@@ -1,6 +1,6 @@
 {
-  "name": "VueJS-with-Vite",
-  "version": "0.0.0",
+  "name": "Piccat",
+  "version": "1.0.0",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
