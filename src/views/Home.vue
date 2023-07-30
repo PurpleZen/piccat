@@ -5,7 +5,7 @@
     <h2>Scratch Image Viewer</h2>
     <label>Project URL</label>
     <input @keyup.enter="project()" id="project" placeholder="https://scratch.mit.edu/projects/...">
-    <label>Assests URL</label>
+    <label>Assets URL</label>
     <input @keyup.enter="assets()" id="assets" placeholder="https://assets.scratch.mit.edu/...">
   </div>
   <div class="footer">
