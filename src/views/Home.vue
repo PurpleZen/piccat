@@ -9,7 +9,7 @@
     <input @keyup.enter="assets()" id="assets" placeholder="https://assets.scratch.mit.edu/...">
   </div>
   <div class="footer">
-    Piccat is not in any way associated with Scratch or the Scratch Foundation.<br><a href="https://github.com/PurpleZen/piccat/">Piccat is an open source project!</a>
+    Piccat is not in any way associated with Scratch or the Scratch Foundation.<br><a href="https://github.com/PurpleZen/piccat/">Piccat is an open source project!</a><br><a href="https://scratch.mit.edu/discuss/topic/701347/">Give Feedback!</a>
   </div>
 </template>
 
@@ -30,7 +30,7 @@ export default {
     assets() {
       let projectURL = document.getElementById("assets").value
       let url = new URL(projectURL)
-      window.location.pathname = url.pathname.split('.')[1] + "/" + url.pathname.split('.')[0]
+      window.location.pathname = url.pathname.split('.')[1] + "/" + url.pathname.split('.')[0].replace(/[0-9]/g, (n) => String.fromCharCode(71 + Number(n)))
     }
   }
 }
