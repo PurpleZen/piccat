@@ -13,12 +13,6 @@
   </div>
 </template>
 
-<style scoped>
-img {
-  position: initial;
-}
-</style>
-
 <script>
 export default {
   methods: {
