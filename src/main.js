@@ -2,9 +2,6 @@ import { createApp } from 'vue'
 import App from './App.vue'
 import { routes } from './routes.js'
 import { createRouter, createWebHistory } from 'vue-router'
-import { inject } from '@vercel/analytics';
-
-inject();
 
 const app = createApp(App)
 
