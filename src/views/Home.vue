@@ -1,15 +1,9 @@
 <template>
   <div class="body">
-    <h1>😺</h1>
+    <h1>😿</h1>
     <h1>Piccat</h1>
     <h2>Scratch Image Viewer</h2>
-    <label>Project URL</label>
-    <input @keyup.enter="project()" id="project" placeholder="https://scratch.mit.edu/projects/...">
-    <label>Assets URL</label>
-    <input @keyup.enter="assets()" id="assets" placeholder="https://assets.scratch.mit.edu/...">
-  </div>
-  <div class="footer">
-    Piccat is not in any way associated with Scratch or the Scratch Foundation.<br><a href="https://github.com/PurpleZen/piccat/">Piccat is an open source project!</a><br><a href="https://scratch.mit.edu/discuss/topic/701347/">Give Feedback!</a>
+    <span>Due to project image links <a href="https://scratch.mit.edu/discuss/topic/706966/?page=1#post-7475947">being blocked</a>, I have decided to shut down Piccat to prevent users from getting around the Filterbot.<br>My apologies.</span>
   </div>
 </template>
 
